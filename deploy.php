@@ -5,3 +5,5 @@ server('prod', '192.168.10.10', 22)
     ->password('vagrant')
     ->stage('production')
     ->env('deploy_path', '/home/vagrant/app');
+
+set('repository','https://github.com/filipac/my-open-app');
